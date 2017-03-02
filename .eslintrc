@@ -1,0 +1,15 @@
+{ 
+  "env": {
+    "es6": false,
+    "node": false,
+    "browser": true
+    
+  },
+  "rules": {
+    "no-undef": ["error", { "typeof": true }]
+  },
+  "globals": {
+    "module": true,
+    "require": true
+  }
+}
